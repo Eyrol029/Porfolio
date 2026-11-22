@@ -24,11 +24,11 @@ export const NAV_ITEMS = [
 export type SkillGroup = { title: string; icon: "code" | "layout" | "server" | "database" | "wrench"; items: string[] };
 
 export const SKILL_GROUPS: SkillGroup[] = [
-  { title: "Programming Languages", icon: "code", items: ["Java", "JavaScript", "C#", "Dart","Python"] },
+  { title: "Programming Languages", icon: "code", items: ["Java", "JavaScript", "TypeScript", "Python"] },
   { title: "Frontend Development", icon: "layout", items: ["React.js", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"] },
-  { title: "Backend Development", icon: "server", items: ["Spring Boot","Express.Js"] },
-  { title: "Database", icon: "database", items: ["MySQL", "PostgreSQL", "SQLite"] },
-  { title: "Tools & Technologies", icon: "wrench", items: ["Git", "GitHub", "Unity", "Flutter", "Visual Studio Code","Antigravity","Postman"] },
+  { title: "Backend Development", icon: "server", items: ["Spring Boot", "Express.Js", "MERN Stack"] },
+  { title: "Database", icon: "database", items: ["MySQL", "PostgreSQL", "SQLite","MongoDB"] },
+  { title: "Tools & Technologies", icon: "wrench", items: ["Git", "GitHub", "Flutter", "Visual Studio Code", "Antigravity", "Postman"] },
 ];
 
 export type Project = {
