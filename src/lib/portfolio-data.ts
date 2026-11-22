@@ -28,7 +28,7 @@ export const SKILL_GROUPS: SkillGroup[] = [
   { title: "Frontend Development", icon: "layout", items: ["React.js", "Vue.js", "HTML5", "CSS3", "Tailwind CSS"] },
   { title: "Backend Development", icon: "server", items: ["Spring Boot", "Express.Js", "MERN Stack"] },
   { title: "Database", icon: "database", items: ["MySQL", "PostgreSQL", "SQLite","MongoDB"] },
-  { title: "Tools & Technologies", icon: "wrench", items: ["Git", "GitHub", "Flutter", "Visual Studio Code", "Antigravity", "Postman"] },
+  { title: "Tools & Technologies", icon: "wrench", items: ["Git", "GitHub", "Flutter", "Visual Studio Code", "Antigravity", "Claude Code", "Postman","Gemini"] },
 ];
 
 export type Project = {
