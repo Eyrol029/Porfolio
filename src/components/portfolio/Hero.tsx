@@ -7,7 +7,7 @@ const BADGES = [
   { label: "React", className: "left-[-8%] top-[14%]", delay: "0s" },
   { label: "Java", className: "right-[-10%] top-[30%]", delay: "1.2s" },
   { label: "Flutter", className: "left-[-12%] bottom-[22%]", delay: "2.1s" },
-  { label: "Unity", className: "right-[-6%] bottom-[8%]", delay: "0.6s" },
+  { label: "Claude Code", className: "right-[-6%] bottom-[8%]", delay: "0.6s" },
 ];
 
 export function Hero() {
